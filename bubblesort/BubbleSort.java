@@ -12,7 +12,7 @@ public class BubbleSort {
         boolean swapped;
         for (int i = 0; i < arr.length; i++) {
             swapped= false;
-            for (int j = 1; j < arr.length-i; j++) {
+            for (int j = 1; j < arr.length-i; j++) { // in every pass, greatest element will be at last position hence ignore the same in next steps, so the condition  (length-i)
                 if(arr[j] < arr[j-1]){
                     //swap j with j-1
                     int tmp=arr[j];
