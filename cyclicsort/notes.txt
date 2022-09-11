@@ -1,0 +1,5 @@
+When given numbers range from 1 to n, use cyclec sort.
+What is cyclic sort?
+  --- N numbers are given , after sorting these numbers, index = value -1 (because array index start from 0, and ele are from 1 to n).
+  --- so , first check if value is at the correct index , if not swap with correct index else continue.
+In this way, every unique element is goint to swap only once, so number of comparisions required in the worst case are (n-1 + n) = 2n -1 = 0(n) ... constants ignored  
