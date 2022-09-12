@@ -1,0 +1,9 @@
+Binary Search should be considered every time you need to search for an index or element in a collection. If the collection is unordered, we can always sort it first before applying Binary Search.
+
+Binary Search is generally composed of 3 main sections:
+
+    Pre-processing - Sort if collection is unsorted.
+
+    Binary Search - Using a loop or recursion to divide search space in half after each comparison.
+
+    Post-processing - Determine viable candidates in the remaining space.
