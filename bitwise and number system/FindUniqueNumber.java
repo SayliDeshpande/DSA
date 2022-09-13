@@ -1,7 +1,7 @@
 public class FindUniqueNumber {
 
     public static void main(String[] args) {
-        int[] nums  ={2,3,3,4,2,6,4};
+        int[] nums  ={2,3,3,4,2,6,4};    // same number appearing twice, find unique
         System.out.println(find(nums));
     }
 
