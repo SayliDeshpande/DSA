@@ -26,7 +26,7 @@ class CountPrime {
             if (notPrime[i] == false) {
                 count++;
                 for (int j = i*2; j <n; j+=i) {
-                    notPrime[j] = true; // making all factors of the number as true, since //these are factors , they cannot be prime
+                    notPrime[j] = true; // making all factors of the number as true, because obviously  these are not prime
                 }
             }
         }
