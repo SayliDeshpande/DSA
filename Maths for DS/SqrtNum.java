@@ -20,6 +20,21 @@ public class SqrtNum {
             }
         }
         return num;
+        
+        
+        //Below part is applicable if ans is asked in double, and need to consider decimal points
+        // loop will be on how many decimal points are asked to return
+        /*
+         double incr = 0.1;
+        for (int i = 0; i < p; i++) {
+            while (num * num <= n) {
+                num += incr;
+            }
+            num -= incr;
+            incr /= 10;
+        }
+        return num;
+        */
     }
 
 }
