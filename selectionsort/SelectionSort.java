@@ -11,9 +11,9 @@ public class SelectionSort {
     private static void selectionsort(int[] arr) {
 
         for (int i = 0; i < arr.length ; i++) {
-            // first find the max index and place it at correct position in the array.
+            // first find the max number and place it at correct position in the array.
             int last=arr.length-1-i;
-            int maxIndex = getMaxIndex(arr, 0,last);  // first find the max index
+            int maxIndex = getMaxIndex(arr, 0,last);  // first find the max number
             swap(arr, maxIndex, last);                      //place at correct position
 
         }
