@@ -5,7 +5,7 @@ public class MergeSort {
     // 1. Divide given array into two parts
     //2. get both parts sorted using recursion
     //3. merger both parts into one : while merging, compare each and every elements
-
+// Time Complexity : O(N * lon N)
 
     public static void main(String[] args) {
         int arr[]={4,5,3,2,1};
