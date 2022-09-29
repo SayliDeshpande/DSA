@@ -3,7 +3,7 @@ public class SubSequence {
     // Idea is : pass two strings, input and output
     //initially output string is empty, start processing input which is unprocessed string, and output will be in processed string
     //whenever unprocessed string i.e. input string is empty return processed string i.e output
-    // start reading char by char, and make two recursive calls, one recursive call with char and without char
+    // start reading char by char, and make two recursive calls, one recursive call - either take it or ignore it
     public static void main(String[] args) {
         String str= "abc";
         subseq("",str);
