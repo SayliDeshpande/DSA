@@ -1,6 +1,7 @@
 public class IntersectionOfArraysII {
   
   // leetcode problem : https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
+  // Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.
   
    public static void main(String[] args) {
         int[] nums1 = {1,2,2,1};
