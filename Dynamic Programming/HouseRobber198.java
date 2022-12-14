@@ -17,11 +17,11 @@ public class HouseRobber198 {
             i++;
         }
         return maxmoney; */
-        // dynamic programming  approach
-        int max = nums[0];
+        // dynamic programming  bottom-up approach
+        int max = nums[0]; // base case
         for(int i = 0 ; i < nums.length ; i++){
             if(i > 2){
-                nums[i] = Math.max(nums[i - 2], nums[i - 3]) + nums[i];
+                nums[i] = Math.max(nums[i - 2], nums[i - 3]) + nums[i]; // Recurrence relation
             }else if (i > 1){
                 nums[i] = nums[i - 2] + nums[i];
             }
