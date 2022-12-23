@@ -21,3 +21,6 @@ class MiddleofLinkedList876 {
         return slow; // so return slow
     }
 }
+
+// Time complexity : O(N)  where NNN is the number of nodes in the given list.
+// space complexity : O(1) the space used by slow and fast.
