@@ -45,6 +45,7 @@
     class Solution { 
         public List<List<Integer>> levelOrder(TreeNode root) {
             List<List<Integer>> levels = new ArrayList<>();
+            if (root == null) return levels; // important to avoid NullPointerException
             // Typically, we use a queue to help us to do BFS. 
             Queue<TreeNode> queue = new LinkedList<>();
             queue.add(root);
