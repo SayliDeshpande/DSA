@@ -1,0 +1,20 @@
+How to traverse the tree
+There are two general strategies to traverse a tree:
+
+Depth First Search (DFS)
+
+In this strategy, we adopt the depth as the priority, so that one would start from a root and reach all the way down to certain leaf, 
+and then back to root to reach another branch.
+
+The DFS strategy can further be distinguished as preorder, inorder, and postorder depending on the relative order among the root node, 
+left node and right node.
+
+Breadth First Search (BFS)
+
+We scan through the tree level by level, following the order of height, from top to bottom. 
+The nodes on higher level would be visited before the ones with lower levels.
+Breadth-First Search is an algorithm to traverse or search in data structures like a tree or a graph.
+The algorithm starts with a root node and visit the node itself first. Then traverse its neighbors, traverse its second level neighbors, 
+traverse its third level neighbors, so on and so forth.
+When we do breadth-first search in a tree, the order of the nodes we visited is in level order.
+Typically, we use a queue to help us to do BFS. 
