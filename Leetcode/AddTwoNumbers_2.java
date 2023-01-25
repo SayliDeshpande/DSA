@@ -8,7 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class AddTwoNumbers_2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
        // to store resul, need a list
        ListNode dummy = new ListNode(0); // initiate with any value, say 0
