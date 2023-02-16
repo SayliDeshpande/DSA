@@ -28,4 +28,8 @@ We traverse over each character at-most once, until the two pointers meet in the
 Space complexity : O(1)
 No extra space required, at all.
 
+Footnotes
+Such a property is formally known as a loop invariant. ↩
+
+Such a property is often called a loop termination condition. It is one of several used in this solution. Can you identify the others? ↩
 */
