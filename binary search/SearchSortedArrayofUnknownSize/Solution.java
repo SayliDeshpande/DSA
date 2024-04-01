@@ -12,10 +12,10 @@ public class Solution {
     public static void main(String[] args) {
         int[] secret = {-1,0,3,5,9,12};
         int target = 9;
-        System.out.println(search(secret, target));
+      //  System.out.println(search(secret, target));
     }
-    public static int search(ArrayReader reader, int target) {
-      /*  int start = 0;
+  /* public static int search(ArrayReader reader, int target) {
+      *//*  int start = 0;
         int end = target - reader.get(0);
 
         if(reader.get(end) == target) return end;
@@ -30,7 +30,7 @@ public class Solution {
                 end = mid - 1;
             }
         }
-        return -1;*/
+        return -1;*//*
         int hi = 1;
         while (reader.get(hi) < target) {
             hi = hi << 1;
@@ -48,5 +48,5 @@ public class Solution {
         }
         return -1;
 
-    }
+    }*/
 }
